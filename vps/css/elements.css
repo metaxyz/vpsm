@@ -1,0 +1,88 @@
+
+/* Angajare */
+
+.calltoaction{display:block; padding:30px; text-transform:uppercase; font-size:1em; color:#000000; background-color:#EFEFEF;}
+#container .calltoaction h1{margin:0 0 12px 0; padding:0; font-size:2.5em; text-transform:uppercase;}
+.calltoaction p{margin:0; padding:0; line-height:1.4em; text-transform:none;}
+.calltoaction .button{display:block; text-align:center; line-height:1.4em;}
+
+.calltoaction.opt1{border:solid #FF9900; border-width:0 0 0 5px;}
+
+
+/* Base Colours */
+
+.blue{color:#56AED4;}
+.green{color:#C0E079;}
+.grey{color:#A8A8A8;}
+.dkgrey{color:#333333;}
+.orange{color:#FF9900;}
+.purple{color:#9F81A9;}
+.red{color:#D54346;}
+.yellow{color:#FDE803;}
+
+
+/* Buttons */
+
+.button{display:inline-block; border:1px solid; font-weight:bold; text-transform:uppercase;}
+
+
+.button.small{font-size:.9em; padding:6px 15px 5px 15px;}
+.button.medium{font-size:1.1em; padding:10px 20px 9px 20px;}
+
+
+.button.orange{color:#FFFFFF; background-color:#FF9900; border-color:#CC7500;}
+.button.orange:hover{color:#FF9900; background-color:#A66000; border-color:#FF9900;}
+
+
+/* Jquery Accordion + Jquery Toggle */
+
+.accordion-wrapper, .toggle-wrapper{display:block; width:100%; margin-top:15px;}
+.accordion-wrapper:first-child, .toggle-wrapper:first-child{margin-top:0;}
+.accordion-wrapper .accordion-title, .accordion-wrapper .accordion-title.active, .toggle-wrapper .toggle-title, .toggle-wrapper .toggle-title.active{display:block; padding:0 0 0 34px; background:no-repeat 9px center; border:1px solid #E5E4E3;}
+.accordion-wrapper .accordion-title span, .accordion-wrapper .accordion-title.active span, .toggle-wrapper .toggle-title span, .toggle-wrapper .toggle-title.active span{display:block; padding:8px 15px; border-left:1px solid #E5E4E3;}
+.accordion-wrapper .accordion-title, .toggle-wrapper .toggle-title{background-image:url("images/icons/gemicon/plus-16x16.png");}
+.accordion-wrapper .accordion-title.active, .toggle-wrapper .toggle-title.active{color:#000; background-image:url("images/icons/gemicon/minus-16x16.png");}
+.accordion-wrapper .accordion-content, .toggle-wrapper .toggle-content{display:none; padding:15px 32px; border:solid #E5E4E3; border-width:0 1px 1px 1px;}
+
+/* Jquery Tabs */
+
+.tab-wrapper{display:block; width:100%;}
+.tab-wrapper .tab-nav{position:relative; margin:0; padding:0; list-style:none;}
+.tab-wrapper .tab-nav li{display:inline-block; float:left; margin:0 -1px -1px 0;}
+.tab-wrapper .tab-nav li a{display:block; padding:10px 20px; border:1px solid #E5E4E3;}
+.tab-wrapper .tab-nav li a:hover, .tab-wrapper .tab-nav li.ui-tabs-active a{color:#919191;}
+.tab-wrapper .tab-nav li.ui-tabs-active a{border-bottom-color:#FFFFFF; cursor:default;}
+.tab-wrapper .tab-container{display:block; padding:20px 25px 15px 25px; border:1px solid #E5E4E3;}
+
+
+
+/* Skillset */
+
+.skillset ul li{margin:8px 0 0 0;}
+.skillset ul li:first-child{margin-top:0;}
+.skillset ul li div{display:block; margin:5px 0 0 0; padding:3px; color:#333333; background-color:#E2E2E2;}
+.skillset ul li strong{display:block; padding:5px 8px; color:#FFFFFF; background-color:#333333; font-weight:normal; line-height:normal;}
+.skillset ul li.size-40 strong{width:36.5%;}
+.skillset ul li.size-80 strong{width:76.5%;}
+.skillset ul li.size-100 strong{width:96.5%;}
+
+/* Forms */
+
+form, fieldset, legend{margin:0; padding:0; border:none;}
+legend{display:none;}
+form{display:block; width:100%;}
+form input, form textarea{display:block; width:100%; padding:5px; border:1px solid #E5E4E3; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+#respond form label, form textarea{margin-bottom:15px;}
+form textarea{overflow:auto;}
+form div, form p{margin:0; padding:0;}
+form input[type="submit"], form input[type="reset"]{display:inline-block; width:auto; margin:0; padding:5px 15px; color:#666666; background-color:#FFFFFF; cursor:pointer;}
+input, textarea, select{resize:none; outline:none;}
+
+/* Tables */
+
+table{width:100%; border-collapse:collapse; table-layout:auto; vertical-align:top; margin-bottom:15px;}
+table thead th{color:#FFFFFF; background-color:#666666; border:1px solid #CCCCCC; border-collapse:collapse; text-align:center; table-layout:auto; vertical-align:middle;}
+table tbody td{vertical-align:top; border-collapse:collapse; border-left:1px solid #CCCCCC; border-right:1px solid #CCCCCC;}
+table thead th, table tbody td{padding:5px; border-collapse:collapse;}
+table tbody tr.light{color:#979797; background-color:#F7F7F7;}
+table tbody tr.dark{color:#979797; background-color:#E8E8E8;}
